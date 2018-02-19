@@ -1,6 +1,7 @@
 
 body{
-    background-color: #b1b3a3;
+    margin-top: 30px;
+    background-color:#b1b3a3;
 }
 
 h1{
@@ -12,12 +13,23 @@ h1{
     
 }
 
+i{
+    color: rgb(204, 10, 10);
+}
+
+.bold{
+font-weight: bold;
+color: blueviolet;
+}
+
 .center-div
 {
   position: absolute;
   margin: auto;
-  right: 0;
-  left: 0;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
   width: 696px;
   
 }
@@ -29,8 +41,9 @@ h1{
 }
 
 img {
-    max-width: 100%;
+    margin-top: 205px;
     height: auto;
+    width: 661px;
 }
 
 .box{
@@ -60,4 +73,15 @@ img {
 
 #myBtn:hover {
     background-color: #555;
+}
+
+
+.info-div{
+    position: relative;
+    z-index: 100;
+    top: 930px;
+    right: 0;
+    left: 300px;
+    width: 750px;
+    font-size: 20px;
 }
