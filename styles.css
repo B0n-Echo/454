@@ -90,7 +90,7 @@ img {
 ul > li {
     margin: 5px;
     padding: 10px;
-    background-color:rgb(39, 38, 38);
+    background-color:#b1b3a3;
     cursor: pointer;
     
     opacity: 1.0;
@@ -99,10 +99,14 @@ ul > li {
 
 ul > li:hover {
     opacity: 1.0;
-    color: aliceblue;
+    font-weight: bold;
 }
 
 ul:hover > li:not(:hover) {
     opacity: 0.5;
 }
 
+.quoted :hover{
+    color: red;
+font-weight: bold;
+}
